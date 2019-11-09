@@ -381,4 +381,115 @@ button {
   right: -10px;
   z-index: -1;
 }
+
+.page-questions {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.page-questions .container {
+  padding-top: 101px;
+  padding-bottom: 28.9%;
+}
+
+.page-questions .container .flex-questions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.page-questions .container .flex-questions-item {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  max-width: 384px;
+  margin-right: 9px;
+}
+
+.page-questions .container .flex-questions-item:nth-child(3) {
+  margin-right: 0;
+}
+
+.page-questions .container .flex-questions-item ul {
+  padding-left: 0;
+  list-style: none;
+  background-color: #f26522;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.page-questions .container .flex-questions-item ul li {
+  color: #ffffff;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 23px;
+  padding-left: 0;
+  padding-right: 30px;
+}
+
+.page-questions .container .flex-questions-item ul li:nth-child(even) {
+  background-color: #ffffff;
+}
+
+.page-questions .container .flex-questions-item ul li:nth-child(odd) {
+  padding-top: 24px;
+  padding-bottom: 18px;
+  padding-left: 27px;
+}
+
+.page-questions .container .flex-questions-item ul li hr {
+  margin: 0;
+  height: 1px;
+  border: none;
+}
+
+.page-questions .container .flex-questions-item .special-list {
+  color: #ffffff;
+  font-size: 1.375em;
+  font-weight: 700;
+}
+
+.page-questions .container .flex-questions-item .icon-list li {
+  padding-left: 60px !important;
+  position: relative;
+}
+
+.page-questions .container .flex-questions-item .icon-list li::before {
+  content: '';
+  display: block;
+  background-image: url(../img/okay-icon.svg);
+  background-repeat: no-repeat;
+  width: 25px;
+  position: absolute;
+  top: 23px;
+  left: 23px;
+  bottom: 0;
+}
+
+.page-questions .container .flex-questions-item .icon-list .special-list {
+  padding-left: 23px !important;
+}
+
+.page-questions .container .flex-questions-item .icon-list .special-list::before {
+  display: none;
+}
+
+.page-questions .container .flex-questions-item ul:nth-child(1) .width-list {
+  padding-top: 25px;
+  padding-bottom: 40px;
+}
+
+.page-questions .container .flex-questions-item ul:nth-child(1) .some-list {
+  padding-top: 25px;
+  padding-bottom: 39px;
+}
+
+.page-questions .container .flex-questions .doitdude li {
+  padding-right: 66px;
+}
 /*# sourceMappingURL=style.css.map */
