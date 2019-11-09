@@ -142,7 +142,7 @@ button {
 
 .page-features .container {
   padding-top: 101px;
-  padding-bottom: 81px;
+  padding-bottom: 101px;
 }
 
 .page-features .container h2 {
@@ -188,8 +188,8 @@ button {
 }
 
 .page-features .container .flex-features-item {
-  -webkit-box-shadow: 0 0 6px rgba(64, 199, 255, 0.32);
-          box-shadow: 0 0 6px rgba(64, 199, 255, 0.32);
+  -webkit-box-shadow: 0 0 24px rgba(64, 199, 255, 0.32);
+          box-shadow: 0 0 24px rgba(64, 199, 255, 0.32);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding-top: 45px;
@@ -212,7 +212,7 @@ button {
 
 .page-features .container .flex-features-item h3 {
   color: #f26522;
-  font-size: 24px;
+  font-size: 1.5em;
   font-weight: 700;
   line-height: 26px;
   text-align: center;
@@ -222,7 +222,7 @@ button {
 
 .page-features .container .flex-features-item p {
   color: #898989;
-  font-size: 16px;
+  font-size: 1em;
   font-weight: 400;
   line-height: 25px;
   text-align: center;
@@ -232,6 +232,153 @@ button {
 }
 
 .page-steps {
-  background-color: #f6f6f6;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+}
+
+.page-steps::before {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: -52px;
+  background-image: url(../img/page-steps-bg.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 82.2%;
+  z-index: -1;
+}
+
+.page-steps .container {
+  padding-top: 3.24%;
+}
+
+.page-steps .container h2 {
+  color: #333333;
+  font-size: 2.5em;
+  font-weight: 700;
+  text-align: center;
+}
+
+.page-steps .container .line {
+  width: 280px;
+  height: 1px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  position: relative;
+  margin-bottom: 51px;
+}
+
+.page-steps .container .line::after {
+  content: '';
+  display: block;
+  width: 100px;
+  height: 7px;
+  background-color: #f26522;
+  position: absolute;
+  bottom: -3px;
+  left: 90px;
+}
+
+.page-steps .container .flex-steps {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 73px;
+}
+
+.page-steps .container .flex-steps-item {
+  -webkit-box-shadow: 0 0 24px rgba(64, 199, 255, 0.32);
+          box-shadow: 0 0 24px rgba(64, 199, 255, 0.32);
+  background-color: #ffffff;
+  margin-right: 30px;
+  max-width: 370px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-top: 36px;
+  padding-left: 60px;
+  padding-right: 52px;
+  padding-bottom: 66px;
+}
+
+.page-steps .container .flex-steps-item:nth-child(3) {
+  margin-right: 0;
+  padding-right: 47px;
+  padding-left: 51px;
+}
+
+.page-steps .container .flex-steps-item:nth-child(2) {
+  padding-right: 24px;
+  padding-left: 18px;
+}
+
+.page-steps .container .flex-steps-item h3 {
+  color: #f26522;
+  font-size: 1.375em;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.page-steps .container .flex-steps-item h3 span {
+  display: block;
+  color: #f26522;
+  font-size: 1.54em;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.page-steps .container .flex-steps-item p {
+  color: #7f7f7f;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.page-steps .container .flex-steps-item .par-1 {
+  max-width: 217px;
+}
+
+.page-steps .container .flex-steps-item .par-2 {
+  max-width: 291px;
+}
+
+.page-steps .container .video {
+  width: 78%;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+
+.page-steps .container .video img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  position: relative;
+}
+
+.page-steps .container .video::after {
+  content: '';
+  display: block;
+  background-image: url(../img/page-steps-house.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 31.35%;
+  height: 54%;
+  position: absolute;
+  bottom: 128px;
+  right: -10px;
+  z-index: -1;
 }
 /*# sourceMappingURL=style.css.map */
