@@ -57,7 +57,7 @@ button {
 
 .page-header .container nav ul li a {
   color: #333333;
-  font-size: 25px;
+  font-size: 1.5625em;
   font-weight: 400;
 }
 
@@ -388,8 +388,8 @@ button {
 }
 
 .page-questions .container {
-  padding-top: 101px;
-  padding-bottom: 28.9%;
+  padding-top: 86px;
+  padding-bottom: 15.05%;
 }
 
 .page-questions .container .flex-questions {
@@ -491,5 +491,80 @@ button {
 
 .page-questions .container .flex-questions .doitdude li {
   padding-right: 66px;
+}
+
+.page-subscribe {
+  background-image: url(../img/page-subscribe-bg.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.page-subscribe .container {
+  padding-top: 8%;
+  padding-bottom: 9.18%;
+}
+
+.page-subscribe .container h2 {
+  font-size: 3.125em;
+  color: #f2f2f2;
+  font-weight: 700;
+  line-height: 34px;
+  text-align: center;
+  margin: 0;
+}
+
+.page-subscribe .container p {
+  color: #f2f2f2;
+  font-weight: 700;
+  line-height: 34px;
+  text-align: center;
+  font-size: 1.5625em;
+  margin-top: 7px;
+  margin-bottom: 39px;
+}
+
+.page-subscribe .container .subscribe-form {
+  display: -ms-grid;
+  display: grid;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-grid-columns: minmax(290px, 619px) 167px;
+      grid-template-columns: minmax(290px, 619px) 167px;
+  -ms-grid-rows: 60px;
+      grid-template-rows: 60px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  width: 67.5%;
+  margin: 0 auto;
+}
+
+.page-subscribe .container .subscribe-form input {
+  padding-left: 72px;
+  color: #dbdbdb;
+  font-size: 1em;
+  font-weight: 400;
+  background-image: url(../img/email-icon.png);
+  background-repeat: no-repeat;
+  background-position: 4% 46%;
+  border: none;
+  padding-right: 45px;
+}
+
+.page-subscribe .container .subscribe-form input:focus {
+  color: black;
+}
+
+.page-subscribe .container .subscribe-form button {
+  border: none;
+  color: #ffffff;
+  font-size: 1.125em;
+  font-weight: 500;
+  background-color: #f26522;
 }
 /*# sourceMappingURL=style.css.map */
