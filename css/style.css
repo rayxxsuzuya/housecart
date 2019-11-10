@@ -107,6 +107,7 @@ button {
 
 @media screen and (max-width: 558px) {
   .page-header .container nav ul {
+    margin-left: 0;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -128,6 +129,9 @@ button {
     width: 80%;
     text-align: center;
     margin: 0 auto;
+  }
+  .page-header .container nav ul {
+    margin-left: 0;
   }
   .page-header .container nav ul li {
     font-size: 19px;
