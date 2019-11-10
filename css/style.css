@@ -226,6 +226,46 @@ button {
   color: #f26522;
 }
 
+@media screen and (max-width: 882px) {
+  .page-sell .container .sell-text h1 {
+    font-size: 40px;
+  }
+  .page-sell .container .sell-text p {
+    max-width: 440px;
+  }
+}
+
+@media screen and (max-width: 882px) {
+  .page-sell .container .sell-form {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .page-sell .container .sell-form input {
+    margin-bottom: 10px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 100%;
+  }
+  .page-sell .container .sell-form button {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .page-sell .container .sell-text h1 {
+    font-size: 35px;
+  }
+  .page-sell .container .sell-text p {
+    font-size: 15px;
+    max-width: 265px;
+  }
+}
+
 .page-features {
   padding-left: 15px;
   padding-right: 15px;
@@ -446,6 +486,7 @@ button {
 }
 
 .page-steps .container .video {
+  display: block;
   width: 78%;
   margin: 0 auto;
   background-color: #ffffff;
