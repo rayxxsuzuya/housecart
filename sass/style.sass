@@ -43,6 +43,9 @@ button
 						color: #333333
 						font-size: 1.5625em
 						font-weight: 400
+						transition: 0.3s
+						&:hover
+							color: #f26522
 					&:nth-child(4)
 						margin-right: 0
 
@@ -95,7 +98,11 @@ button
 				width: 77%
 				&:focus
 					color:#000
+					outline-color: #f26522
 			button
+				&:hover
+					background-color: #ffffff
+					color: #f26522
 				background-color: #f26522
 				color: #ffffff
 				font-size: 1.125em
@@ -105,6 +112,8 @@ button
 				cursor: pointer
 				height: 67px
 				width: 166px
+				border: 2px solid #f26522
+				transition: 0.3s
 
 .page-features
 	padding-left: 15px
@@ -401,13 +410,19 @@ button
 				padding-right: 45px
 				&:focus
 					color: black
+					outline-color: #f26522
 			button
+				&:hover
+					background-color: #ffffff
+					color: #f26522
 				border: none
 				color: #ffffff
 				font-size: 1.125em
 				font-weight: 500
 				background-color: #f26522
 				cursor: pointer
+				border: 2px solid #f26522
+				transition: 0.3s
 
 .page-form
 	padding-left: 15px
@@ -453,6 +468,7 @@ button
 							box-sizing: border-box
 							&:focus
 								color: black
+								outline-color: #f26522
 						button
 							display: inline-block
 							border: none
@@ -464,6 +480,11 @@ button
 							cursor: pointer
 							padding-top: 20px
 							padding-bottom: 20px
+							border: 2px solid #f26522
+							transition: 0.3s
+							&:hover
+								background-color: #ffffff
+								color: #f26522
 				&-2
 					grid-column: 2 / 4
 					grid-row: span 2
@@ -488,6 +509,7 @@ button
 						box-sizing: border-box
 						&:focus
 							color: black
+							outline-color: #f26522
 					textarea
 						display: inline-block
 						box-sizing: border-box
@@ -504,6 +526,7 @@ button
 						margin-bottom: 26px
 						&:focus
 							color: black
+							outline-color: #f26522
 					button
 						width: 211px
 						height: 50px
@@ -513,6 +536,12 @@ button
 						font-size: 1.125em
 						font-weight: 500
 						float: right
+						transition: 0.3s
+						border: 2px solid #f26522
+						cursor: pointer
+						&:hover
+							background-color: #ffffff
+							color: #f26522
 					
 .page-footer
 	padding-left: 15px

@@ -69,6 +69,12 @@ button {
   color: #333333;
   font-size: 1.5625em;
   font-weight: 400;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.page-header .container nav ul li a:hover {
+  color: #f26522;
 }
 
 .page-header .container nav ul li:nth-child(4) {
@@ -144,6 +150,7 @@ button {
 
 .page-sell .container .sell-form input:focus {
   color: #000;
+  outline-color: #f26522;
 }
 
 .page-sell .container .sell-form button {
@@ -156,6 +163,14 @@ button {
   cursor: pointer;
   height: 67px;
   width: 166px;
+  border: 2px solid #f26522;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.page-sell .container .sell-form button:hover {
+  background-color: #ffffff;
+  color: #f26522;
 }
 
 .page-features {
@@ -581,6 +596,7 @@ button {
 
 .page-subscribe .container .subscribe-form input:focus {
   color: black;
+  outline-color: #f26522;
 }
 
 .page-subscribe .container .subscribe-form button {
@@ -590,6 +606,14 @@ button {
   font-weight: 500;
   background-color: #f26522;
   cursor: pointer;
+  border: 2px solid #f26522;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.page-subscribe .container .subscribe-form button:hover {
+  background-color: #ffffff;
+  color: #f26522;
 }
 
 .page-form {
@@ -661,6 +685,7 @@ button {
 
 .page-form .container .grid-form .grid-form-item-1 .wrap input:focus {
   color: black;
+  outline-color: #f26522;
 }
 
 .page-form .container .grid-form .grid-form-item-1 .wrap button {
@@ -674,6 +699,14 @@ button {
   cursor: pointer;
   padding-top: 20px;
   padding-bottom: 20px;
+  border: 2px solid #f26522;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.page-form .container .grid-form .grid-form-item-1 .wrap button:hover {
+  background-color: #ffffff;
+  color: #f26522;
 }
 
 .page-form .container .grid-form .grid-form-item-2 {
@@ -709,6 +742,7 @@ button {
 
 .page-form .container .grid-form .grid-form-item-2 input:focus {
   color: black;
+  outline-color: #f26522;
 }
 
 .page-form .container .grid-form .grid-form-item-2 textarea {
@@ -730,6 +764,7 @@ button {
 
 .page-form .container .grid-form .grid-form-item-2 textarea:focus {
   color: black;
+  outline-color: #f26522;
 }
 
 .page-form .container .grid-form .grid-form-item-2 button {
@@ -741,6 +776,15 @@ button {
   font-size: 1.125em;
   font-weight: 500;
   float: right;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  border: 2px solid #f26522;
+  cursor: pointer;
+}
+
+.page-form .container .grid-form .grid-form-item-2 button:hover {
+  background-color: #ffffff;
+  color: #f26522;
 }
 
 .page-footer {
