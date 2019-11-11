@@ -663,12 +663,14 @@ button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .page-questions .container .flex-questions-item {
@@ -758,6 +760,37 @@ button {
 
 .page-questions .container .flex-questions .doitdude li {
   padding-right: 66px;
+}
+
+@media screen and (max-width: 736px) {
+  .page-questions .container .flex-questions {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: stretch;
+        -ms-flex-pack: stretch;
+            justify-content: stretch;
+  }
+  .page-questions .container .flex-questions-item {
+    margin-right: 0px;
+    max-width: 342.8px;
+  }
+}
+
+@media screen and (max-width: 378px) {
+  .page-questions .container .flex-questions-item ul li {
+    font-size: 0.9em;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .page-questions .container .flex-questions ul:nth-child(1) .width-list {
+    padding-bottom: 20px;
+  }
+  .page-questions .container .flex-questions ul:nth-child(1) .some-list {
+    padding-bottom: 19px;
+  }
 }
 
 .page-subscribe {

@@ -514,8 +514,9 @@ button
 		padding-bottom: 15.05%
 		.flex-questions
 			display: flex
-			justify-content: space-between
+			justify-content: center
 			align-items: center
+			flex-wrap: wrap
 			&-item
 				box-sizing: border-box
 				max-width: 384px
@@ -577,6 +578,37 @@ button
 				li
 					padding-right: 66px
 
+@media screen and ( max-width: 736px )
+	.page-questions
+		.container
+			.flex-questions
+				flex-direction: column
+				justify-content: stretch
+				&-item
+					margin-right: 0px
+					max-width: 342.8px
+
+@media screen and ( max-width: 378px )
+	.page-questions
+		.container
+			.flex-questions
+				&-item
+					ul
+						li
+							font-size: 0.9em
+
+@media screen and ( max-width: 320px )
+	.page-questions
+		.container
+			.flex-questions
+				ul
+					&:nth-child(1)
+						.width-list
+							padding-bottom: 20px
+						.some-list
+							padding-bottom: 19px
+						
+	
 .page-subscribe
 	background-image: url(../img/page-subscribe-bg.jpeg)
 	background-repeat: no-repeat
