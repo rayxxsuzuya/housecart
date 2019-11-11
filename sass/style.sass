@@ -774,6 +774,7 @@ button
 					grid-column: 2 / 4
 					grid-row: span 2
 					padding: 36px 30px 30px 30px
+					background: none
 					h3
 						color: #333333
 						font-size: 1.875em	
@@ -827,7 +828,56 @@ button
 						&:hover
 							background-color: #ffffff
 							color: #f26522
-					
+
+@media screen and ( max-width: 1046px )
+	.page-form
+		.container
+			.grid-form
+				.grid-form-item-1
+					.wrap
+						h2
+							font-size: 1.85em
+						p
+							font-size: 1.1em
+
+@media screen and ( max-width: 849px )
+	.page-form
+		.container
+			.grid-form
+				grid-template-columns: minmax(290px, 510px)
+				.grid-form-item
+					&-1
+						.wrap
+							p
+								max-width: 355px
+					&-2
+						grid-column: 1 / 2
+						grid-row: span 2
+	.page-footer
+		&::before
+			display: none
+
+@media screen and ( max-width: 386px )
+	.page-form
+		.container
+			.grid-form
+				.grid-form-item
+					&-1
+						padding-bottom: 59px
+					&-2
+						button
+							float: none
+							width: 100%
+
+@media screen and ( max-width: 320px )
+	.page-form
+		.container
+			.grid-form
+				.grid-form-item
+					&-2
+						h3
+							font-size: 1.6em
+
 .page-footer
 	padding-left: 15px
 	padding-right: 15px
@@ -849,6 +899,18 @@ button
 		left: -80px
 		background-image: url(../img/footer-picture.png)
 		background-repeat: no-repeat
-		width: 1111px
-		height: 244px
+		width: 52.55%
+		height: 248%
 		z-index: -1	
+
+@media screen and ( max-width: 488px )
+	.page-footer
+		.container
+			p
+				font-size: 0.9em
+
+@media screen and ( max-width: 428px )
+	.page-footer
+		.container
+			p
+				line-height: 15px
