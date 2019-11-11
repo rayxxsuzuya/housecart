@@ -881,6 +881,59 @@ button {
   color: #f26522;
 }
 
+@media screen and (max-width: 700px) {
+  .page-subscribe .container h2 {
+    font-size: 2.7em;
+  }
+  .page-subscribe .container p {
+    font-size: 1.4em;
+  }
+  .page-subscribe .container .subscribe-form {
+    -ms-grid-columns: minmax(290px, 619px);
+        grid-template-columns: minmax(290px, 619px);
+    -ms-grid-rows: 60px 60px;
+        grid-template-rows: 60px 60px;
+    grid-row-gap: 10px;
+  }
+  .page-subscribe .container .subscribe-form button {
+    grid-column: span 1;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    grid-row: 2 / 3;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .page-subscribe .container h2 {
+    font-size: 2.3em;
+  }
+  .page-subscribe .container p {
+    font-size: 1.3em;
+  }
+  .page-subscribe .container .subscribe-form {
+    -ms-grid-columns: minmax(230px, 619px);
+        grid-template-columns: minmax(230px, 619px);
+  }
+  .page-subscribe .container .subscribe-form input {
+    padding-left: 53px;
+    padding-right: 20px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .page-subscribe .container h2 {
+    font-size: 2.1em;
+  }
+  .page-subscribe .container p {
+    font-size: 1.2em;
+    margin-bottom: 22px;
+  }
+  .page-subscribe .container .subscribe-form {
+    -ms-grid-columns: minmax(211px, 619px);
+        grid-template-columns: minmax(211px, 619px);
+  }
+}
+
 .page-form {
   padding-left: 15px;
   padding-right: 15px;
