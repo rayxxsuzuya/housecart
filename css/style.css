@@ -779,6 +779,9 @@ button {
 }
 
 @media screen and (max-width: 378px) {
+  .page-questions .container .flex-questions-item {
+    max-width: 314.167px;
+  }
   .page-questions .container .flex-questions-item ul li {
     font-size: 0.9em;
   }
